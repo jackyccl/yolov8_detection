@@ -31,4 +31,5 @@ The training logs can be found on the project [page](https://app.roboflow.com/ja
 
 ### Inference with videos
 We can also test our model on a video with the following command:
+
 `!yolo task=detect mode=predict model={HOME}/runs/detect/train/weights/best.pt conf=0.25 source={video_path}.mp4`
