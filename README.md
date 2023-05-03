@@ -6,6 +6,8 @@ This is an application to detect football players using the latest Yolo-v8. Ultr
 
 <img src="https://github.com/jackyccl/yolov8_detection/blob/main/demo_gifs/08fd33_4_AdobeExpress.gif" width="480" height="270" />
 
+Go to user interface demo at [here](https://app.roboflow.com/jackyccl/football-players-detection-2-e9a5j/overview).
+
 ## Preparing a custom dataset
 
 We use RoboFlow to create custom datasets by following the steps below. 
