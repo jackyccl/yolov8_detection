@@ -23,4 +23,13 @@ Now that we have our images and annotations added, we can generate a "dataset ve
 
 Once the dataset version is generated, we have a hosted dataset we can load directly into our notebook for easy training. Click `Export` and select the `YOLO v8` dataset format.
 
-For more information, please click [here](https://blog.roboflow.com/how-to-train-yolov8-on-a-custom-dataset/)
+### Step 6: Load Yolov8 CLI
+Ultralytics released CLI and SDK version to train on our custom dataset. I use CLI in my training. Please refer the training procedures in the jupyter notebook. 
+
+### Finish Training
+The training logs can be found on the project [page](https://app.roboflow.com/jackyccl/football-players-detection-2-e9a5j/overview). We can directly test the model by accessing to the "Deploy" tab and simply upload an image for inference.
+
+### Inference with videos
+We can also test our model on a video with the following command:
+
+`!yolo task=detect mode=predict model={HOME}/runs/detect/train/weights/best.pt conf=0.25 source={video_path}.mp4`
