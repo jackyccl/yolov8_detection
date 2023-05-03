@@ -23,4 +23,5 @@ Now that we have our images and annotations added, we can generate a "dataset ve
 
 Once the dataset version is generated, we have a hosted dataset we can load directly into our notebook for easy training. Click `Export` and select the `YOLO v8` dataset format.
 
-For more information, please click [here](https://blog.roboflow.com/how-to-train-yolov8-on-a-custom-dataset/)
+### Step 6: Load Yolov8 CLI
+Ultralytics released CLI and SDK version to train on our custom dataset. I use CLI in my training. Please refer the training procedures in the jupyter notebook. 
