@@ -1,6 +1,10 @@
 # Yolo-v8 Football Players Detection
 This is an application to detect football players using the latest Yolo-v8. Ultralytics YOLOv8 is the latest version of the YOLO (You Only Look Once) object detection and image segmentation model developed by Ultralytics.
 
+# Demos 
+![](https://github.com/jackyccl/yolov8_detection/blob/main/demo_gifs/019d5b34_1_AdobeExpress.gif)
+![](https://github.com/jackyccl/yolov8_detection/blob/main/demo_gifs/08fd33_4_AdobeExpress.gif)
+
 ## Preparing a custom dataset
 
 We use RoboFlow to create custom datasets by following the steps below. 
